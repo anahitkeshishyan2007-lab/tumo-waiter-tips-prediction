@@ -1,4 +1,4 @@
-# Waiter Tips Prediction
+
 
 ## Introduction
 When the bill arrives, how much tip should you leave? This project uses machine learning to **predict the tip (in US dollars)** a waiter receives, based on the total bill, the size of the party, and other details of the meal (day, time, smoker, gender of the payer).
@@ -6,7 +6,7 @@ When the bill arrives, how much tip should you leave? This project uses machine 
 The model is a **Linear Regression** from scikit-learn, built for Station Project 1: The Prediction.
 
 ## Getting started
-1. Clone the repository: `https://github.com/anahitkeshishyan2007-lab/tumo-waiter-tips-prediction`
+1. Clone the repository: `git clone https://github.com/anahitkeshishyan2007-lab/tumo-waiter-tips-prediction`
 2. Install the libraries:
    ```
    pip install pandas numpy plotly scikit-learn notebook
@@ -59,7 +59,7 @@ The dataset has 244 rows and no missing values.
 - **Bill vs tip, lunch vs dinner:** both follow a similar upward pattern, but dinner bills are bigger (about 20.80 vs 17.17 dollars on average), so dinner tips are slightly higher.
   ![Lunch vs dinner](images/lunch_vs_dinner.png)
 - **Days:** the data is mostly Saturday (87 rows), Sunday (76) and Thursday (62). Only 19 rows are from Friday, so the model has the least to learn from Fridays.
-  ![Days](images/days_pie.png)
+  ![Days](images/days_vs_pie.png)
 - **Smokers:** about 62% of the bills (151 of 244) are from non-smokers, so the data is not perfectly balanced.
   ![Smokers](images/smokers_pie.png)
 
