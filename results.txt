@@ -1,0 +1,3 @@
+Training R2: 0.458
+Test R2: 0.437
+Predicted tip for the example: 6.01
