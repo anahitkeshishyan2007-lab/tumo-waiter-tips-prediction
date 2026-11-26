@@ -6,7 +6,7 @@ When the bill arrives, how much tip should you leave? This project uses machine 
 The model is a **Linear Regression** from scikit-learn, built for Station Project 1: The Prediction.
 
 ## Getting started
-1. Clone the repository: `git clone <your-repository-link>`
+1. Clone the repository: `https://github.com/anahitkeshishyan2007-lab/tumo-waiter-tips-prediction`
 2. Install the libraries:
    ```
    pip install pandas numpy plotly scikit-learn notebook
